@@ -1,4 +1,4 @@
-# Veer — Project Description
+# Veer Project Description
 
 **Course:** Computer Science Senior Design I
 **Advisor:** Dr. Jillian Aurisano
