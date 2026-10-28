@@ -1,0 +1,26 @@
+ID,Statement,Owner,O,M,P,E,Hours Grady,Hours Brady,Hours Briar,Hours Dominic,Hours Aiden,Start,Work done,Buffer days,Completion,Depends on,Critical path,Risks
+T1,"Develop the C1 Mobile Navigation app shell: destination entry, map, and turn-by-turn guidance (I1b, I1c)",Grady Algire,16,24,36,24.7,21.0,3.7,0.0,0.0,0.0,2027-01-11,2027-01-22,2,2027-01-26,T18; T11,Yes,RK-02
+T2,Develop the C1 Mobile Navigation trip state machine and its I2/I4 calls,Grady Algire,20,28,42,29.0,23.2,0.0,2.9,2.9,0.0,2027-01-27,2027-02-09,2,2027-02-11,T1; T23,Yes,RK-08
+T3,Develop the Configuration component and GET /config/client,Grady Algire,8,14,22,14.3,12.9,0.0,0.0,0.0,1.4,2026-11-13,2026-11-23,2,2026-11-30,T4,No,
+T4,"Develop the backend on Render: Express, PostgreSQL, and CI",Grady Algire,10,16,28,17.0,12.8,2.5,0.0,0.0,1.7,2026-11-02,2026-11-10,2,2026-11-12,,No,RK-05
+T5,Test the full Veer system end to end on supervised test drives (US-01 to US-05),Grady Algire,20,30,48,31.3,18.8,3.1,3.1,3.1,3.1,2027-03-16,2027-03-25,2,2027-03-29,T19; T9; T14; T17; T24; T20; T25,Yes,RK-08; RK-09
+T6,"Obtain written proof of the E2 AI Provider no-retention setting and pick the audio format (G-03, G-08)",Briar Elliot,6,10,18,10.7,0.0,0.0,10.7,0.0,0.0,2026-11-02,2026-11-09,2,2026-11-11,,No,RK-01
+T7,Develop the C2 Speech Understanding I2 endpoint with E2 transcription,Briar Elliot,16,24,38,25.0,0.0,0.0,22.5,0.0,2.5,2027-01-11,2027-01-22,2,2027-01-26,T6; T4,No,RK-01; RK-04
+T8,Develop C2 Speech Understanding constraint extraction and allow-list check,Briar Elliot,18,26,40,27.0,0.0,0.0,24.3,0.0,2.7,2027-01-27,2027-02-09,2,2027-02-11,T7,No,RK-04
+T9,"Develop C2 Speech Understanding ""okay"" / ""no"" replies and short confirmations",Briar Elliot,10,16,26,16.7,1.7,0.0,15.0,0.0,0.0,2027-02-12,2027-02-19,2,2027-02-23,T8,No,
+T10,Validate C2 Speech Understanding accuracy with accent samples (US-05),Briar Elliot,10,16,26,16.7,0.0,0.0,13.4,0.0,3.3,2027-02-24,2027-03-03,2,2027-03-05,T9,No,RK-04
+T11,Research E3 Google Maps Platform terms for in-app guidance and get API keys (G-04),Brady Cooper,6,10,16,10.3,0.0,10.3,0.0,0.0,0.0,2026-11-02,2026-11-09,2,2026-11-11,,No,RK-02
+T12,Develop the C3 Route Planning I4 endpoint and E3 routes client,Brady Cooper,18,26,40,27.0,0.0,24.3,0.0,2.7,0.0,2027-01-11,2027-01-25,2,2027-01-27,T11; T4,No,RK-02
+T13,Develop C3 Route Planning food and business stop insertion (US-01),Brady Cooper,18,26,40,27.0,0.0,24.3,0.0,2.7,0.0,2027-01-28,2027-02-10,2,2027-02-12,T12,No,
+T14,"Develop C3 Route Planning avoid highways and tolls, and the next route on ""no""",Brady Cooper,12,18,28,18.7,1.9,16.8,0.0,0.0,0.0,2027-02-15,2027-02-23,2,2027-02-25,T13,No,
+T15,Test C3 Route Planning edge cases EC-09 to EC-12,Brady Cooper,8,14,22,14.3,0.0,12.2,0.0,2.1,0.0,2027-02-26,2027-03-04,1,2027-03-05,T14; T17,No,
+T16,Investigate E4 Weather Provider data and propose rain settings (G-02),Dominic Rowland,6,10,18,10.7,0.0,0.0,0.0,10.7,0.0,2026-11-12,2026-11-19,2,2026-11-23,,No,RK-09
+T17,Develop the E4 Weather Provider client and rain avoidance in C3 (US-02),Dominic Rowland,18,26,40,27.0,0.0,4.0,0.0,22.9,0.0,2027-01-11,2027-01-25,2,2027-01-27,T16,No,RK-09
+T18,"Investigate on-device ""Veer, stop listening"" and a C1 Mobile Navigation foreground service (G-01, G-06)",Dominic Rowland,8,12,20,12.7,1.3,0.0,0.0,11.4,0.0,2026-11-02,2026-11-09,2,2026-11-11,,No,RK-03
+T19,"Develop C1 Mobile Navigation mic control, listening indicator, and one-tap mute (I1a, US-04)",Dominic Rowland,12,18,30,19.0,2.9,0.0,0.0,16.1,0.0,2027-02-12,2027-02-22,2,2027-02-24,T2,Yes,RK-03
+T20,"Develop the Notifications component: trip notice, driver notices, and budget alerts",Dominic Rowland,10,16,26,16.7,1.7,0.0,0.0,15.0,0.0,2027-02-25,2027-03-04,2,2027-03-15,T22; T1,Yes,RK-03
+T21,Develop the C4 Usage Monitor database tables and retention job (G-05),Aiden Ward,8,14,22,14.3,0.0,0.0,0.0,0.0,14.3,2026-11-13,2026-11-24,2,2026-12-01,T4,No,
+T22,Develop C4 Usage Monitor checkQuota and recordUsage (I7 to I9),Aiden Ward,14,22,34,22.7,0.0,2.3,0.0,0.0,20.4,2027-02-01,2027-02-11,2,2027-02-15,T21; T3,No,RK-05
+T23,"Develop the Authentication component: register, refresh, and Keystore storage",Aiden Ward,12,18,30,19.0,2.9,0.0,0.0,0.0,16.1,2027-01-11,2027-01-20,2,2027-01-22,T4,No,
+T24,Develop the Logging component with redaction,Aiden Ward,6,10,16,10.3,0.0,1.0,0.0,0.0,9.3,2027-01-25,2027-01-28,1,2027-01-29,T3,No,
+T25,"Develop the C4 Usage Monitor usage report and spending caps (US-03, G-07)",Aiden Ward,8,14,22,14.3,0.0,0.0,0.0,0.0,14.3,2027-02-16,2027-02-23,2,2027-02-25,T22; T23,No,RK-05
