@@ -206,9 +206,9 @@ Milestones are from the Week 8 plan.
 | M-10 Nov 11 | This plan submitted | Grady Algire | Test_Plan.md in repo |
 | M-15 Dec 2 | Unit tests and CI for config and C4 tables (TC-21, TC-23) | Aiden Ward | Green GitHub Actions run |
 | M-17 Feb 1 | Unit + integration: auth and logging (TC-18, TC-20) | Aiden Ward | CI run; test log |
-| M-18 Feb 12 | Integration: C2 (TC-02, TC-06, TC-16); first TC-26 run | Briar Elliot | CI run; accuracy sheet |
-| M-19 Feb 15 | Integration: C3 (TC-01, TC-05, TC-07, TC-08) | Brady Cooper | CI run; test log |
-| M-20 Mar 3 | System in parked car: mute, approval, guidance (TC-03, TC-04, TC-10 to TC-13, TC-15, TC-22, TC-24); first validation sessions | Dominic Rowland, Grady Algire | Test log; screen recordings; validation notes |
+| M-18 Feb 12 | Integration: C2 (TC-02, TC-06, TC-16); first TC-26 run | Brady Cooper | CI run; accuracy sheet |
+| M-19 Feb 15 | Integration: C3 (TC-01, TC-05, TC-07, TC-08) | Briar Elliot, Dominic Rowland | CI run; test log |
+| M-20 Mar 3 | System in parked car: mute, approval, guidance (TC-03, TC-04, TC-10 to TC-13, TC-15, TC-22, TC-24); first validation sessions | Aiden Ward, Grady Algire | Test log; screen recordings; validation notes |
 | M-21 Mar 15 | System: full edge-case suite and load (TC-17, TC-25, TC-26) | Each component owner | Edge-case report; k6 report |
 | M-22 Mar 16 | System: usage and caps (TC-14, TC-19) | Aiden Ward | Test log; alert email |
 | M-23 Apr 2 | Acceptance: supervised drives and advisor review; constraints (TC-27 to TC-32) | Grady Algire | Drive log; validation results; defect list |
